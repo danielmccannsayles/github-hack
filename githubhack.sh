@@ -12,8 +12,11 @@ truncate -s -2 $filename
 #add day of the week, effectively changing the file and causing the need for a github update
 echo $DOW>>$filename
 
+#add text.txt to what's going to be pushed
 git add $filename
 
+#create a commit
 git commit -m "first commit"
 
+#push that commit
 git push -u test main
