@@ -16,6 +16,8 @@ echo $DOW>>$filename
 
 #add text.txt to what's going to be pushed
 git add $filename
+git add githubhack.sh
+
 
 #create a commit
 git commit -m "first commit"
