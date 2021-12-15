@@ -23,4 +23,4 @@ git add .vscode/
 git commit -m "first commit"
 
 #push that commit
-git push -u test main
+git push -f test main
