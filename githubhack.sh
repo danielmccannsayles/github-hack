@@ -17,7 +17,7 @@ echo $DOW>>$filename
 #add text.txt to what's going to be pushed - idk why i have to add vscode it told me to in terminal lol
 git add $filename
 git add githubhack.sh
-git add vscode/
+git add .vscode/
 
 #create a commit
 git commit -m "first commit"
