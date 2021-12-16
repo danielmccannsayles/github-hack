@@ -8,7 +8,7 @@ echo 'editing '$filename
 DOW=$(date +%u)
 echo 'Day of the week is '$DOW
 
-#remove last character(idk why but -2 works)
+#remove last character - remove 2 because concate (>>) adds a return for some reason
 truncate -s -2 $filename
 
 #add day of the week, effectively changing the file and causing the need for a github update
