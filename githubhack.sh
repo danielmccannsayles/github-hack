@@ -15,12 +15,12 @@ truncate -s -2 $filename
 echo $DOW>>$filename
 
 #add text.txt to what's going to be pushed - idk why i have to add vscode it told me to in terminal lol
-git add $filename
-git add githubhack.sh
-git add .vscode/
+git -C ~/Desktop/Programming\ 2021-2022/Github\ \'hack\'/ add $filename
+git -C ~/Desktop/Programming\ 2021-2022/Github\ \'hack\'/ add githubhack.sh
+git -C ~/Desktop/Programming\ 2021-2022/Github\ \'hack\'/ add .vscode/
 
 #create a commit
-git commit -m "first commit"
+git -C ~/Desktop/Programming\ 2021-2022/Github\ \'hack\'/ commit -m "first commit"
 
 #push that commit
-git push -f test main
+git -C ~/Desktop/Programming\ 2021-2022/Github\ \'hack\'/ push -f test main
